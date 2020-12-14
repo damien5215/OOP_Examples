@@ -11,4 +11,6 @@ I learned these examples from Treehouse (https://teamtreehouse.com/library/c-obj
 | Exceptions (Try/Catch)  |               |
 | Arrays                  | Frog.cs       |
 | Ternary IF              | AuthorName.cs |
+| Feild/Property          | Person.cs     |
 | Properties (Auto, etc)  | Polygon.cs    |
+| Override Property       | SequenceDe..cs|
