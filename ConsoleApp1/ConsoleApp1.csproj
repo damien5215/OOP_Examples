@@ -48,6 +48,7 @@
     <Compile Include="Car.cs" />
     <Compile Include="Frog.cs" />
     <Compile Include="MathOps.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Polygon.cs" />
     <Compile Include="Polygon1.cs" />
     <Compile Include="Program.cs" />

@@ -9,13 +9,13 @@ namespace ConsoleApp1
     class Car
     {
         public string model;
-        public string color;   // colour
+        public string colour;
         public int year;
 
-        public Car(string modelName, string modelColor, int modelYear) 
+        public Car(string modelName, string modelColour, int modelYear) 
         {
             model = modelName;
-            color = modelColor;
+            colour = modelColour;
             year  = modelYear;
         }
     }
@@ -24,5 +24,5 @@ namespace ConsoleApp1
 //Car Ford = new Car("Mustang", "Red", 1969);
 
 //Console.WriteLine(Ford.model + "\n" + 
-//                  Ford.color + "\n" + 
+//                  Ford.colour + "\n" + 
 //                  Ford.year  + "\n");
