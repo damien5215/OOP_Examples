@@ -50,4 +50,4 @@ namespace ConsoleApp1
 //SequenceDetector SD1 = new RepeatDetector();
 //bool result = SD1.Scan(array1);
 //Console.WriteLine(result);
-//Console.WriteLine(SD1.Description + "\n" + "\n");
+//Console.WriteLine(SD1.Description);
