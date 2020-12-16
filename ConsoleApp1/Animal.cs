@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class Animal
+    public abstract class Animal
     {
-        public int NoOfLegs;
+        public int NoOfEyes { get; } = 2;
+        
+        public abstract int NoOfLegs { get; protected set; }
         
         public virtual string phonation() 
         {
@@ -18,6 +20,8 @@ namespace ConsoleApp1
 
     public class Dog : Animal
     {
+        public override int NoOfLegs { get; protected set; }
+
         public Dog() 
         {
             NoOfLegs = 4;
@@ -30,6 +34,8 @@ namespace ConsoleApp1
     }
     public class Cat : Animal
     {
+        public override int NoOfLegs { get; protected set; }
+
         public Cat()
         {
             NoOfLegs = 4;
@@ -41,6 +47,7 @@ namespace ConsoleApp1
     }
 }
 
-//Animal Jeff = new Animal();
+//Animal Jeff = new Cat();
+//Console.WriteLine(Jeff.NoOfEyes);
 //Console.WriteLine(Jeff.NoOfLegs);
 //Console.WriteLine(Jeff.phonation());
