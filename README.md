@@ -14,4 +14,4 @@ I learned these examples from Treehouse (https://teamtreehouse.com/library/c-obj
 | Feild/Property          | Person.cs          |
 | Properties (Auto, etc)  | Polygon.cs         |
 | Override Property       | SequenceDe..cs     |
-| IUnaryOperation         | IUnaryOperation.cs |
+| Interface               | IUnaryOperation.cs |
