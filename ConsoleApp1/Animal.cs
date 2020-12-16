@@ -10,6 +10,7 @@ namespace ConsoleApp1
     {
         public int NoOfEyes { get; } = 2;
         
+        // Property is abstract therefore every sub-class will have to override.
         public abstract int NoOfLegs { get; protected set; }
         
         public virtual string phonation() 
