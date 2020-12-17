@@ -1,6 +1,8 @@
 # OOP_Examples
 
-I learned these examples from Treehouse (https://teamtreehouse.com/library/c-objects and https://teamtreehouse.com/library/intermediate-c).
+I learned these examples from Treehouse -
+1. https://teamtreehouse.com/library/c-objects 
+2. https://teamtreehouse.com/library/intermediate-c).
 
 | OOP Concept             | Class Name         |
 | ----------------------- | ------------------ |
