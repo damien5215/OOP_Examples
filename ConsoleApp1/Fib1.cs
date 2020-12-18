@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     public class Fib1
     {
-        public static int Fib(int n)
+        public static double Fib(int n)
         {
             if (n < 2)
             {
@@ -16,7 +16,7 @@ namespace ConsoleApp1
             }
             else 
             {
-                int[] fibArray = new int[n];
+                double[] fibArray = new double[n];
                 fibArray[0] = 0;
                 fibArray[1] = 1;
                 n--;
@@ -25,7 +25,7 @@ namespace ConsoleApp1
             }
         }
 
-        public static int calcFib(int n, int[] fibArray)
+        public static double calcFib(int n, double[] fibArray)
         {
             if (n < 2)
             {
