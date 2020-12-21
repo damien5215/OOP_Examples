@@ -48,6 +48,7 @@
     <Compile Include="Bird.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Fib1.cs" />
+    <Compile Include="FibConsole.cs" />
     <Compile Include="Frog.cs" />
     <Compile Include="IUnaryOperation.cs" />
     <Compile Include="MathOps.cs" />
@@ -59,7 +60,6 @@
     <Compile Include="Quote.cs" />
     <Compile Include="Room.cs" />
     <Compile Include="SequenceDetector.cs" />
-    <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
