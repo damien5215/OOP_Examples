@@ -10,6 +10,7 @@ namespace ConsoleApp1
     {
         static void FibNumbers()
         {
+            Console.Clear();
             Console.WriteLine("Enter a number");
             int fibInputNumber = Convert.ToInt32(Console.ReadLine());
             float[] fib = new float[fibInputNumber];
@@ -25,11 +26,21 @@ namespace ConsoleApp1
             Console.WriteLine("fib(" + fibInputNumber + ") = " + result + "\n\n");
         }
 
+        static void FibNumbers2()
+        {
+            Console.Clear();
+            Console.WriteLine("Enter a number");
+            int fibInputNo = Convert.ToInt32(Console.ReadLine());
+            double result = Fib1.Fib(fibInputNo);
+            Console.WriteLine("fib(" + fibInputNo + ") = " + result + "\n\n");
+        }
+
         public static void MenuFunction()
         {
             Console.WriteLine("Console FibCalculator in C#\r");
             Console.WriteLine("---------------------------\n");
-            Console.WriteLine("Enter 1 - Fibonacci Calculator\r");
+            Console.WriteLine("Enter 2 - Fibonacci Calculator 2\r");
+            Console.WriteLine("Enter 1 - Fibonacci Calculator 1\r");
             Console.WriteLine("Enter 0 - Exit Console App\n");
             int caseSwitch = Convert.ToInt32(Console.ReadLine());
 
@@ -44,7 +55,9 @@ namespace ConsoleApp1
                     MenuFunction();
                     break;
                 case 2:
-                    Console.WriteLine("Case 2");
+                    FibNumbers2();
+                    MenuFunction();
+                    //Console.WriteLine("Case 2");
                     break;
                 default:
                     Console.WriteLine("Exit");
