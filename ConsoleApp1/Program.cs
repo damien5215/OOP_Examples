@@ -10,11 +10,6 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //int n1 = 4;
-
-            //Console.WriteLine("");
-            //Console.WriteLine("The " + n1 + "th term of the fibonacci sequence is: " + Fib1.Fib(n1));
-            //Console.WriteLine("");
 
             FibConsole.MenuFunction();
         }
