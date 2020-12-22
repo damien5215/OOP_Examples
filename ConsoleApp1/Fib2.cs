@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// n = 46, result = 1836311903 and n = 47, result = 2971215073
-// Signed 32-bit integer, largest positive number is 2,147,483,647
-// Changed fibArray[] to contain "double" therefore can compute fib numbers > n = 46 
-
 namespace ConsoleApp1
 {
-    public class Fib1
+    class Fib2
     {
         public static double Fib(int n)
         {
@@ -18,7 +14,7 @@ namespace ConsoleApp1
             {
                 return n;
             }
-            else 
+            else
             {
                 double[] fibArray = new double[n];
                 fibArray[0] = 0;
@@ -32,24 +28,25 @@ namespace ConsoleApp1
         {
             if (n < 2)
             {
+                Console.WriteLine("A");
+                Console.WriteLine(fibArray[0] + " " + fibArray[1] + " " + fibArray[2] + " " + fibArray[3] + " " + fibArray[4] + " " + fibArray[5]);
+
+
                 return 1;  // return n
             }
             else if (fibArray[n] != 0)
             {
+                Console.WriteLine("B");
+                Console.WriteLine(fibArray[0] + " " + fibArray[1] + " " + fibArray[2] + " " + fibArray[3] + " " + fibArray[4] + " " + fibArray[5]);
                 return fibArray[n];
             }
             else
             {
                 fibArray[n] = calcFib(n - 1, fibArray) + calcFib(n - 2, fibArray);
+                Console.WriteLine("C");
+                Console.WriteLine(fibArray[0] + " " + fibArray[1] + " " + fibArray[2] + " " + fibArray[3] + " " + fibArray[4] + " " + fibArray[5]);
                 return fibArray[n];
             }
         }
     }
 }
-
-//int n1 = 46;
-
-//Console.WriteLine("");
-//Console.WriteLine("The " + n1 + "th term of the fibonacci sequence is: " + Fib1.Fib(n1));
-//Console.WriteLine("");
-

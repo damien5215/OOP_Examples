@@ -32,6 +32,7 @@ namespace ConsoleApp1
             Console.WriteLine("Enter a number");
             int fibInputNo = Convert.ToInt32(Console.ReadLine());
             double result = Fib1.Fib(fibInputNo);
+            //double result = Fib2.Fib(fibInputNo);
             Console.WriteLine("fib(" + fibInputNo + ") = " + result + "\n\n");
         }
 
