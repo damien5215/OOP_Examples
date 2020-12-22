@@ -10,6 +10,7 @@ namespace ConsoleApp1
     {
         public static double Fib(int n)
         {
+            Console.WriteLine();
             if (n < 2)
             {
                 return n;
@@ -28,23 +29,37 @@ namespace ConsoleApp1
         {
             if (n < 2)
             {
-                Console.WriteLine("A");
-                Console.WriteLine(fibArray[0] + " " + fibArray[1] + " " + fibArray[2] + " " + fibArray[3] + " " + fibArray[4] + " " + fibArray[5]);
+                Console.Write("A:   ");
 
+                for (int i = 0; i < fibArray.Length; i++) 
+                {
+                    Console.Write(fibArray[i] + " ");
+                }
+                Console.WriteLine("");
 
                 return 1;  // return n
             }
             else if (fibArray[n] != 0)
             {
-                Console.WriteLine("B");
-                Console.WriteLine(fibArray[0] + " " + fibArray[1] + " " + fibArray[2] + " " + fibArray[3] + " " + fibArray[4] + " " + fibArray[5]);
+                Console.Write("B:   ");
+                for (int i = 0; i < fibArray.Length; i++)
+                {
+                    Console.Write(fibArray[i] + " ");
+                }
+                Console.WriteLine("");
+
                 return fibArray[n];
             }
             else
             {
                 fibArray[n] = calcFib(n - 1, fibArray) + calcFib(n - 2, fibArray);
-                Console.WriteLine("C");
-                Console.WriteLine(fibArray[0] + " " + fibArray[1] + " " + fibArray[2] + " " + fibArray[3] + " " + fibArray[4] + " " + fibArray[5]);
+                Console.Write("C:   ");
+                for (int i = 0; i < fibArray.Length; i++)
+                {
+                    Console.Write(fibArray[i] + " ");
+                }
+                Console.WriteLine("");
+
                 return fibArray[n];
             }
         }
