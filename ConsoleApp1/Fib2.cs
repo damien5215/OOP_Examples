@@ -29,7 +29,7 @@ namespace ConsoleApp1
         {
             if (n < 2)
             {
-                Console.Write("A:   ");
+                Console.Write("n = " + n + ", A:   ");
 
                 for (int i = 0; i < fibArray.Length; i++) 
                 {
@@ -41,7 +41,7 @@ namespace ConsoleApp1
             }
             else if (fibArray[n] != 0)
             {
-                Console.Write("B:   ");
+                Console.Write("n = " + n + ", B:   ");
                 for (int i = 0; i < fibArray.Length; i++)
                 {
                     Console.Write(fibArray[i] + " ");
@@ -53,7 +53,7 @@ namespace ConsoleApp1
             else
             {
                 fibArray[n] = calcFib(n - 1, fibArray) + calcFib(n - 2, fibArray);
-                Console.Write("C:   ");
+                Console.Write("n = " + n + ", C:   ");
                 for (int i = 0; i < fibArray.Length; i++)
                 {
                     Console.Write(fibArray[i] + " ");
