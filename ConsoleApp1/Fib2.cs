@@ -35,7 +35,7 @@ namespace ConsoleApp1
             }
         }
 
-        public static double calcFib(int n, double[] fibArray)
+        static double calcFib(int n, double[] fibArray)
         {
             if (n < 2)
             {
