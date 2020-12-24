@@ -20,6 +20,7 @@ namespace ConsoleApp1
             }
             else 
             {
+                n++;
                 double[] fibArray = new double[n];
                 fibArray[0] = 0;
                 fibArray[1] = 1;
@@ -28,11 +29,11 @@ namespace ConsoleApp1
             }
         }
 
-        public static double calcFib(int n, double[] fibArray)
+        static double calcFib(int n, double[] fibArray)
         {
             if (n < 2)
             {
-                return 1;  // return n
+                return n;
             }
             else if (fibArray[n] != 0)
             {
