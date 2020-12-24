@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
+    // This method used to see every step of calculation
     class Fib2
     {
         public static double Fib(int n)
