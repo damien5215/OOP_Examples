@@ -4,19 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// NOTE: n = 46, result = 1836311903 and n = 47, result = 2971215073
-// Signed 32-bit integer, largest positive number is 2,147,483,647
-// Changed fibArray[] to contain "double" therefore can compute fib numbers > n = 46 
+// Calculate nth Fibonacci number using memoization
 
 // If the integer n is less than 2, it is returned. fib(0) = 0 and fib(1) = 1.
-// Else, an array of doubles are created of size n and first two values of array are set to 0 and 1.
-// n is incremented and decremented because array is zero-indexed.
+// Else, an array of doubles is created of size n and first two values of array are set to 0 and 1.
+// n is incremented because array is zero-indexed.
 // "n" and the "array" is passed to the recursive method, "calcFib".
 // If the integer n is less than 2, it is returned. calcFib(0) = 0 and calcFib(1) = 1.
 // Else If, array[n] is not 0 (value has already been calculated and stored), value is returned.
 // Else, array[n] is calculated from the the previous two values.
 // The array is built from the first two values.
 // Once array[n] is calculated the value is returned.
+
+// NOTE: n = 46, result = 1836311903 and n = 47, result = 2971215073
+// Signed 32-bit integer, largest positive number is 2,147,483,647
+// Changed fibArray[] to contain "double" therefore can compute fib numbers > n = 46 
 
 namespace ConsoleApp1
 {
