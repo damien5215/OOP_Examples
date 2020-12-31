@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     class Bubble
     {
-        public int[] Sort2(int arr1Length, int[] arr2)
+        private int[] Sort2(int arr1Length, int[] arr2)
         {
             int x1;
             int x2;
@@ -28,18 +28,18 @@ namespace ConsoleApp1
 
         public int[] Sort(int[] arr1)
         {
-            printArray(arr1);
+            printArray(arr1); 
 
             for (int i = 0; i < arr1.Length; i++)
             {
                 arr1 = Sort2((arr1.Length - i), arr1);
             }
-            
+
             printArray(arr1);
             return arr1;
         }
 
-        static void printArray(int[] arr3) 
+        public static void printArray(int[] arr3) 
         {
             for (int j = 0; j < arr3.Length; j++)
             {

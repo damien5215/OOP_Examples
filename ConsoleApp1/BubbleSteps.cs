@@ -15,11 +15,7 @@ namespace ConsoleApp1
 
             for (int i = 0; i < arr1Length - 1; i++)
             {
-                for (int j = 0; j < arr2.Length; j++)
-                {
-                    Console.Write(arr2[j] + " ");
-                }
-                Console.Write("\n" + "\n");
+                Bubble.printArray(arr2);
 
                 if (arr2[i] > arr2[i + 1])
                 {
@@ -29,25 +25,17 @@ namespace ConsoleApp1
                     arr2[i + 1] = x1;
                 }
             }
-
-            for (int j = 0; j < arr2.Length; j++)
-            {
-                Console.Write(arr2[j] + " ");
-            }
-            Console.Write("\n" + "\n");
-
+            Bubble.printArray(arr2);
             return arr2;
         }
 
         public int[] Sort(int[] arr1)
         {
-
             for (int i = 0; i < arr1.Length; i++)
             {
                 arr1 = Sort2((arr1.Length - i), arr1);
                 Console.Write("\n");
             }
-
             return arr1;
         }
     }
