@@ -10,7 +10,6 @@ I learned most of these examples from Treehouse -
 | Static/Instance Methods | Quote.cs           |
 | Method Overloading      | MathOps.cs         |
 | Inheritance             | Polygon1.cs        |
-| Exceptions (Try/Catch)  |                    |
 | Arrays                  | Frog.cs            |
 | Ternary IF              | AuthorName.cs      |
 | Feild/Property          | Person.cs          |
@@ -21,4 +20,10 @@ I learned most of these examples from Treehouse -
 
 | Concept                 | Class Name         |
 | ----------------------- | ------------------ |
-| Recursion               | Fib1.cs            |
+| Recursion (Memoization) | Fib1.cs            |
+| Fibonacci (for-loop)    | Fib3.cs            |
+| Multiple Fib Algorithms | FibConsole.cs      |
+| BubbleSort Algorithm    | Bubble.cs          |
+
+
+
