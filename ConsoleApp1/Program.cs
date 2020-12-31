@@ -13,10 +13,10 @@ namespace ConsoleApp1
             //FibConsole.MenuFunction();
 
             int[] arr = {4, 2, 3, 1 };
-            //int[] arr = { 3, 1, 6, 2 };
-            //Bubble bubble1 = new Bubble();
-            BubbleSteps bubble1 = new BubbleSteps();
-            bubble1.Sort(arr);
+            //int[] arr = { 3, 2, 6, 1 };
+            Bubble bubble1 = new Bubble();
+            //bubble1.Sort1(arr);
+            bubble1.Sort2(arr);
         }
     }
 }
