@@ -4,6 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// This class contains 2 main methods: "sort1" and "sort2"
+// sort1 prints the array to the console, before and after the sort method
+// sort2 prints the array to the console, at all stages during the calculation
+
+// sort1 recieves an array of integers and prints the array
+// then in a for-loop, the array and it's length is sent to the method "Sort1a"
+// Sort1a uses a for-loop which compares two adjacent elements in the array
+// if the first number is greater, the values are swapped
+// this results in the largest number in the array being moved to the "top" of the array
+// this new array is loaded to the previous array and Sort1a is called again
+// this time the "array size integer" is decremented and the second largest value is moved
+// this continues until the entire array is ordered and sort1 returns the array
+
 namespace ConsoleApp1
 {
     class Bubble
