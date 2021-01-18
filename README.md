@@ -25,5 +25,9 @@ I learned most of these examples from Treehouse -
 | Multiple Fib Algorithms | FibConsole.cs      |
 | BubbleSort Algorithm    | Bubble.cs          |
 
+| Extra (C# Examples)           | Class Name         |
+| ----------------------------- | ------------------ |
+| Concatenation + Interpolation | String.cs          |
+
 
 
