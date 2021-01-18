@@ -89,6 +89,7 @@ namespace ConsoleApp1
                 arr1 = Sort2a((arr1.Length - i), arr1);
                 Console.Write("\n");
             }
+
             return arr1;
         }
     }

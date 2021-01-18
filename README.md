@@ -20,7 +20,7 @@ I learned most of these examples from Treehouse -
 
 | Concept                 | Class Name         |
 | ----------------------- | ------------------ |
-| Recursion (Memoization) | Fib1.cs            |
+| Fibonacci (Memoization) | Fib1.cs            |
 | Fibonacci (for-loop)    | Fib3.cs            |
 | Multiple Fib Algorithms | FibConsole.cs      |
 | BubbleSort Algorithm    | Bubble.cs          |

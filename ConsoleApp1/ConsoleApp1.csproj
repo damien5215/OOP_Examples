@@ -63,6 +63,8 @@
     <Compile Include="Quote.cs" />
     <Compile Include="Room.cs" />
     <Compile Include="SequenceDetector.cs" />
+    <Compile Include="String.cs" />
+    <Compile Include="WordCount.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
