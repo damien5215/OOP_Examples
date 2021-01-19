@@ -10,12 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int[] arr = { 3, 6, 2, 5 };
-            Bubble bubble1 = new Bubble();
-            bubble1.Sort2(arr);
+            FibConsole.MenuFunction();
         }
     }
 }
+
+
 
 //FibConsole.MenuFunction();
 //int[] arr = { 17, 2, 34, 48, 25 };

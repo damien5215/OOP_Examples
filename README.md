@@ -29,7 +29,7 @@ I learned most of these examples from Treehouse -
 | ----------------------------- | ------------------ |
 | Concatenation + Interpolation | String.cs          |
 
-![alt text](https://github.com/damien5215/Development-Blog/blob/master/WebSite8/images6/bubble5.png)
+![alt text](https://thebalancedwriter521.files.wordpress.com/2021/01/fibconsole.png)
 
 
 
