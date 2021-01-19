@@ -18,7 +18,7 @@ I learned most of these examples from Treehouse -
 | Abstract Base Class     | Animal.cs          |
 | Interface               | IUnaryOperation.cs |
 
-| Concept                 | Class Name         |
+| Algorithms              | Class Name         |
 | ----------------------- | ------------------ |
 | Fibonacci (Memoization) | Fib1.cs            |
 | Fibonacci (for-loop)    | Fib3.cs            |
