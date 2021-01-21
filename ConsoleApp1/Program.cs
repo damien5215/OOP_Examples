@@ -15,7 +15,6 @@ namespace ConsoleApp1
     }
 }
 
-
 //FibConsole.MenuFunction();
 //int[] arr = { 17, 2, 34, 48, 25 };
 

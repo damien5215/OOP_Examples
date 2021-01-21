@@ -56,6 +56,7 @@
     <Compile Include="Frog.cs" />
     <Compile Include="IUnaryOperation.cs" />
     <Compile Include="MathOps.cs" />
+    <Compile Include="Pangrams.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Polygon.cs" />
     <Compile Include="Polygon1.cs" />
