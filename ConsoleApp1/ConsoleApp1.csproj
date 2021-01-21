@@ -46,6 +46,7 @@
     <Compile Include="Animal.cs" />
     <Compile Include="AuthorName.cs" />
     <Compile Include="Bird.cs" />
+    <Compile Include="Bubble2.cs" />
     <Compile Include="Bubble.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Fib1.cs" />
