@@ -8,15 +8,23 @@ namespace ConsoleApp1
 {
     class Collection
     {
-        // int[] numberArray = new int[5];
-        // string[] stringArray = new string[6];
+        public static string[] update(string[] strArr, int index, string strReplace) 
+        {
+            List<string> strArrList = new List<string>(strArr);
 
-        int[] numbers = new int[] { 1, 3, 5, 7, 9 };
-        string[] weekDays = new string[] { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
+            strArrList[index] = strReplace;
+
+            string[] result = strArrList.ToArray();
+
+            return result;
+        }
 
     }
 }
 
+
+//int[] numbers = new int[] { 1, 3, 5, 7, 9 };
+//string[] weekDays = new string[] { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
 
 //List<string> students = new List<string>();
 //students.Add("Sue");
@@ -39,6 +47,20 @@ namespace ConsoleApp1
 //students2.Add("Shelly");
 
 //foreach (string student in students2)
+//{
+//    Console.WriteLine(student);
+//}
+
+
+
+
+
+
+//string[] students1 = new string[] { "Sue", "Bill", "Sven" };
+
+//students1 = Collection.update(students1, 1, "Jesus");
+
+//foreach (string student in students1)
 //{
 //    Console.WriteLine(student);
 //}

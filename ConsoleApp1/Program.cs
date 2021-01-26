@@ -12,30 +12,7 @@ namespace ConsoleApp1
         {
             //FibConsole.MenuFunction();
 
-            List<string> students = new List<string>();
-            students.Add("Sue");
-            students.Add("Bill");
-            students.Add("Sven");
 
-            foreach (string student in students)
-            {
-                Console.WriteLine(student);
-            }
-
-            Console.WriteLine(students[0]);
-            Console.WriteLine(students[1]);
-            Console.WriteLine(students.Count);
-
-            string[] studentArray = students.ToArray();
-            Console.WriteLine(studentArray.Length);
-
-            List<string> students2 = new List<string>(studentArray);
-            students2.Add("Shelly");
-
-            foreach (string student in students2)
-            {
-                Console.WriteLine(student);
-            }
         }
     }
 }
