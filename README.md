@@ -28,6 +28,7 @@ I learned most of these examples from Treehouse -
 | Extra (C# Examples)           | Class Name         |
 | ----------------------------- | ------------------ |
 | Concatenation + Interpolation | String.cs          |
+| Arrays and Lists              | Collection.cs      |
 
 ![alt text](https://thebalancedwriter521.files.wordpress.com/2021/01/fibconsole-1.png)
 
