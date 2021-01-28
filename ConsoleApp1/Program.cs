@@ -12,7 +12,6 @@ namespace ConsoleApp1
         {
             //FibConsole.MenuFunction();
 
-
         }
     }
 }

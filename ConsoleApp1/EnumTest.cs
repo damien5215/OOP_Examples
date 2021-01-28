@@ -15,14 +15,28 @@ namespace ConsoleApp1
             High = 3
         }
 
+        public static void getEnums1() 
+        {
+            foreach (var result in Enum.GetValues(typeof(EnumTest.IntensityLevel)))
+            {
+                Console.WriteLine(result.ToString());
+            }
+        }
+
+        public static void getEnums2()
+        {
+            var results = Enum.GetValues(typeof(EnumTest.IntensityLevel))
+                .Cast<EnumTest.IntensityLevel>()
+                .Select(il => new { id = (int)il, name = il.ToString() })
+                .ToList();
+
+            foreach (var result in results)
+            {
+                Console.WriteLine(result);
+            }
+        }
     }
 }
 
-//var results = Enum.GetValues(typeof(EnumTest.IntensityLevel))
-//    .Cast<EnumTest.IntensityLevel>()
-//    .Select(il => new { id = (int)il, name = il.ToString() })
-//    .ToList();
-
-//Console.WriteLine(results[0]);
-//Console.WriteLine(results[1]);
-//Console.WriteLine(results[2]);
+//EnumTest.getEnums1();
+//EnumTest.getEnums2();
