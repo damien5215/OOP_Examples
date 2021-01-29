@@ -57,6 +57,7 @@
     <Compile Include="FibConsole.cs" />
     <Compile Include="Frog.cs" />
     <Compile Include="IUnaryOperation.cs" />
+    <Compile Include="LamdaEx.cs" />
     <Compile Include="MathOps.cs" />
     <Compile Include="Pangrams.cs" />
     <Compile Include="Person.cs" />
