@@ -13,8 +13,22 @@ namespace ConsoleApp1
             var squaredNumbers = input.Select(x => x * x);
 
             return squaredNumbers;
-        } 
+        }
 
+        public static void numbers() 
+        {
+            int[] scores = new int[] { 97, 92, 81, 60, 34 };
+
+            IEnumerable<int> scoreQuery =
+                from score in scores
+                where score > 80
+                select score;
+
+            foreach (int i in scoreQuery)
+            {
+                Console.Write(i + "\n");
+            }
+        }
     }
 }
 
@@ -26,3 +40,6 @@ namespace ConsoleApp1
 //{
 //    Console.WriteLine(number);
 //}
+
+
+//LamdaEx.numbers();
