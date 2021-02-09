@@ -17,6 +17,7 @@ I learned most of these examples from Treehouse -
 | Override Property       | SequenceDe..cs     |
 | Abstract Base Class     | Animal.cs          |
 | Interface               | IUnaryOperation.cs |
+| Interface (Multiple)    | Pikachu.cs         |
 
 | Algorithms              | Class Name         |
 | ----------------------- | ------------------ |
