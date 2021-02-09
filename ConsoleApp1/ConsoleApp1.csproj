@@ -61,6 +61,7 @@
     <Compile Include="MathOps.cs" />
     <Compile Include="Pangrams.cs" />
     <Compile Include="Person.cs" />
+    <Compile Include="Pikachu.cs" />
     <Compile Include="Polygon.cs" />
     <Compile Include="Polygon1.cs" />
     <Compile Include="Program.cs" />
@@ -73,11 +74,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Notes.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

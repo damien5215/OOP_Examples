@@ -1,6 +1,0 @@
-﻿Blah Blah Blah.
-Anonymous types are a feature of C# 3.0, Visual Basic .NET 9.0, Oxygene, Scala and Go that allows data types to encapsulate a set of properties into a single object without having to first explicitly define a type. This is an important feature for the SQL-like LINQ feature that is integrated into C# and VB.net.
-
-Lamda Expressions?
-
-Anonomous Types?

@@ -13,7 +13,6 @@ namespace ConsoleApp1
         {
             //LamdaEx.numbers();
 
-
         }
     }
 }
