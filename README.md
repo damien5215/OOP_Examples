@@ -34,5 +34,10 @@ I learned most of these examples from Treehouse -
 
 ![alt text](https://thebalancedwriter521.files.wordpress.com/2021/01/fibconsole-1.png)
 
+**OOP NOTES**
+
+Abstraction enables a class or method to conccentrate on the essentials of what it is doing and rely on the details being filled in at a later stage.
+
+There are three ways of providing abstraction; inheritance, interfaces and abstract classes.
 
 
