@@ -19,6 +19,37 @@ namespace ConsoleApp1
             return result;
         }
 
+        public static void BigSort() 
+        {
+            string[] unsorted = new string[] { "14", "3084193741082938", "11", "6", "2",
+                                               "31415926535897932384626433832795", "1", "8" };
+
+            List<string> unsortedList = unsorted.ToList();
+
+            double[] test1 = new double[unsortedList.Count];
+
+            for (int i = 0; i < unsortedList.Count; i++)
+            {
+                test1[i] = double.Parse(unsortedList[i]);
+                Console.WriteLine(test1[i]);
+            }
+
+            Console.WriteLine("\n");
+            List<double> test = test1.ToList();
+            test.Sort();
+
+            string[] result = new string[test.Count];
+
+            for (int i = 0; i < unsortedList.Count; i++)
+            {
+                result[i] = test[i].ToString();
+                Console.WriteLine(result[i]);
+            }
+
+            // result is sorted but want to remove scientific notion! 
+            // double has a precision of 15 to 17 digits.
+            // decimal has a precision of 28 to 29 digits.
+        }
     }
 }
 
