@@ -41,4 +41,13 @@ Abstraction enables a class or method to conccentrate on the essentials of what 
 
 There are three ways of providing abstraction; inheritance, interfaces and abstract classes.
 
+**An interface** is a completely "abstract class", which can only contain abstract methods and properties (with empty bodies).
+
+To access interface methods the interface must be "implemented" by a class. A single class can implement multiple interfaces.
+
+Like "abstract" classes interfaces cannot be used to creat objects.
+
+Interface members are by default abstract and public.
+
+
 
