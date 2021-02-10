@@ -13,10 +13,7 @@ namespace ConsoleApp1
         {
             //LamdaEx.numbers();
 
-            string[] unsorted = new string[] { "14", "3084193741082938", "11", "6", "2", 
-                                               "31415926535897932384626433832795", "1", "8" };
-
-            Collection.BigSort();
+            StringReverse.reverse();
 
         }
     }
