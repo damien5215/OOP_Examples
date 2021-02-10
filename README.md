@@ -45,7 +45,7 @@ There are three ways of providing abstraction; inheritance, interfaces and abstr
 
 To access interface methods the interface must be "implemented" by a class. A single class can implement multiple interfaces.
 
-Like "abstract" classes interfaces cannot be used to creat objects.
+Like "abstract" classes interfaces cannot be used to create objects.
 
 Interface members are by default abstract and public.
 
