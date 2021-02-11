@@ -11,7 +11,6 @@ I learned most of these examples from Treehouse -
 | Method Overloading      | MathOps.cs         |
 | Inheritance             | Polygon1.cs        |
 | Arrays                  | Frog.cs            |
-| Ternary IF              | AuthorName.cs      |
 | Feild/Property          | Person.cs          |
 | Properties (Auto, etc)  | Polygon.cs         |
 | Override Property       | SequenceDe..cs     |
@@ -29,6 +28,8 @@ I learned most of these examples from Treehouse -
 
 | Extra (C# Examples)           | Class Name         |
 | ----------------------------- | ------------------ |
+| Exceptions                    | ExceptionEx.cs     |
+| Ternary IF                    | AuthorName.cs      |
 | Concatenation + Interpolation | String.cs          |
 | Arrays and Lists              | Collection.cs      |
 | Enumerate through Enum        | EnumTest.cs        |
