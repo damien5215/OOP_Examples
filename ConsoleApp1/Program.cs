@@ -13,8 +13,8 @@ namespace ConsoleApp1
         {
             //LamdaEx.numbers();
 
-            StringReverse.reverse();
-
+            //ExceptionEx.idea1();
+            ExceptionEx.checkAge();
         }
     }
 }

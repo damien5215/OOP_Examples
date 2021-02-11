@@ -23,8 +23,9 @@ I learned most of these examples from Treehouse -
 | ----------------------- | ------------------ |
 | Fibonacci (Memoization) | Fib1.cs            |
 | Fibonacci (for-loop)    | Fib3.cs            |
-| Multiple Fib Algorithms | FibConsole.cs      |
-| BubbleSort Algorithm    | Bubble.cs          |
+| Multiple Fibonacci      | FibConsole.cs      |
+| String Reverse          | StringReverse.cs   |
+| BubbleSort              | Bubble.cs          |
 
 | Extra (C# Examples)           | Class Name         |
 | ----------------------------- | ------------------ |
