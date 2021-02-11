@@ -13,8 +13,7 @@ namespace ConsoleApp1
         {
             //LamdaEx.numbers();
 
-            //ExceptionEx.idea1();
-            ExceptionEx.checkAge();
+
         }
     }
 }
