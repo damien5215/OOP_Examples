@@ -13,6 +13,14 @@ namespace ConsoleApp1
         {
             //LamdaEx.numbers();
 
+            int[] arr = { 17, 2, 34, 48, 25 };
+
+            int[] arr2 = MergeSort.mergeSort(arr);
+
+            foreach (int num in arr2)
+            {
+                Console.WriteLine(num);
+            }
 
         }
     }
