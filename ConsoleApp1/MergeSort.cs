@@ -34,39 +34,58 @@ namespace ConsoleApp1
             int[] left;
             int[] right;
             int[] result = new int[array.Length];
+            
             //As this is a recursive algorithm, we need to have a base case to 
             //avoid an infinite recursion and therfore a stackoverflow
             if (array.Length <= 1)
                 return array;
-            // The exact midpoint of our array  
+            
+            // The exact midpoint of our array will represent our 'left' array 
             int midPoint = array.Length / 2;
-            //Will represent our 'left' array
             left = new int[midPoint];
 
-            //if array has an even number of elements, the left and right array will have the same number of 
-            //elements
+            //if array has an even no. of elements, the left and right array will have the same no. 
+            //if array has an odd no. of elements, the right array will have 1 more element than the left element
             if (array.Length % 2 == 0)
                 right = new int[midPoint];
-            //if array has an odd number of elements, the right array will have one more element than left
             else
                 right = new int[midPoint + 1];
+            
             //populate left array
             for (int i = 0; i < midPoint; i++)
                 left[i] = array[i];
-            //populate right array   
+
+            //populate right array. 
+            //start index from midpoint    
             int x = 0;
-            //We start our index from the midpoint, as we have already populated the left array from 0 to 
             for (int i = midPoint; i < array.Length; i++)
             {
                 right[x] = array[i];
                 x++;
             }
-            //Recursively sort the left array
+
+            Console.WriteLine("\n");
+            foreach (int num in left)
+            {
+                Console.Write(num + " ");
+            }
+            Console.WriteLine("\n");
+
+            Console.WriteLine("\n");
+            foreach (int num in right)
+            {
+                Console.Write(num + " ");
+            }
+            Console.WriteLine("\n");
+
+
+            //Recursively sort the left and right array
             left = mergeSort(left);
-            //Recursively sort the right array
             right = mergeSort(right);
+
             //Merge our two sorted arrays
             result = merge(left, right);
+            
             return result;
         }
 
