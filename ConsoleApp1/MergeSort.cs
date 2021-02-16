@@ -77,7 +77,6 @@ namespace ConsoleApp1
             }
             Console.WriteLine("\n");
 
-
             //Recursively sort the left and right array
             left = mergeSort(left);
             right = mergeSort(right);
