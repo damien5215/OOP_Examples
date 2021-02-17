@@ -8,25 +8,7 @@ namespace ConsoleApp1
 {
     class FibConsole
     {
-        //static void FibNumbers()
-        //{
-        //    Console.Clear();
-        //    Console.WriteLine("Enter a number");
-        //    int fibInputNumber = Convert.ToInt32(Console.ReadLine());
-        //    double[] fib = new double[fibInputNumber];
-
-        //    fib[0] = fib[1] = 1;
-
-        //    for (int i = 2; i < fibInputNumber; i++)
-        //    {
-        //        fib[i] = fib[i - 1] + fib[i - 2];
-        //    }
-        //    double result = fib[fibInputNumber - 1];
-
-        //    Console.WriteLine("fib(" + fibInputNumber + ") = " + result + "\n\n");
-        //}
-
-        static void FibNumbers2()
+        static void FibNumbers1()
         {
             Console.Clear();
             Console.WriteLine("Enter a number");
@@ -34,7 +16,7 @@ namespace ConsoleApp1
             double result = Fib1.Fib(fibInputNo);
             Console.WriteLine("\n" + "fib(" + fibInputNo + ") = " + result + "\n\n");
         }
-        static void FibNumbers3()
+        static void FibNumbers2()
         {
             Console.Clear();
             Console.WriteLine("Enter a number");
@@ -42,7 +24,7 @@ namespace ConsoleApp1
             double result = Fib2.Fib(fibInputNo);
             Console.WriteLine("\n" + "fib(" + fibInputNo + ") = " + result + "\n\n");
         }
-        static void FibNumbers4()
+        static void FibNumbers3()
         {
             Console.Clear();
             Console.WriteLine("Enter a number");
@@ -60,7 +42,6 @@ namespace ConsoleApp1
             Console.WriteLine("Enter 3 - Fibonacci Calculator 3 (for-loop)\r");
             Console.WriteLine("Enter 2 - Fibonacci Calculator 2 (memoization: every step)\r");
             Console.WriteLine("Enter 1 - Fibonacci Calculator 1 (memoization)\r");
-            //Console.WriteLine("Enter 1 - Fibonacci Calculator 1\r");
             Console.WriteLine("Enter 0 - Exit Console App\n");
             int caseSwitch = Convert.ToInt32(Console.ReadLine());
 
@@ -70,20 +51,16 @@ namespace ConsoleApp1
                     Console.WriteLine("Exit");
                     Environment.Exit(0);
                     break;
-                //case 1:
-                //    FibNumbers();
-                //    MenuFunction();
-                //    break;
                 case 1:
-                    FibNumbers2();
+                    FibNumbers1();
                     MenuFunction();
                     break;
                 case 2:
-                    FibNumbers3();
+                    FibNumbers2();
                     MenuFunction();
                     break;
                 case 3:
-                    FibNumbers4();
+                    FibNumbers3();
                     MenuFunction();
                     break;
                 default:

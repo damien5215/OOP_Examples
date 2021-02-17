@@ -11,7 +11,6 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //LamdaEx.numbers();
 
             int[] arr = { 17, 2, 34, 48, 25, 6 };
 
