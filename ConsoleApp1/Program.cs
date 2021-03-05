@@ -11,24 +11,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-
-            int[] arr = { 17, 2, 34, 48, 25, 6 };
-
-            Console.Write("Before SORT = ");
-            foreach (int num in arr)
-            {
-                Console.Write(num + " ");
-            }
-
-
-            int[] arr2 = MergeSort.mergeSort(arr);
-
-            Console.Write("After SORT = ");
-            foreach (int num in arr2)
-            {
-                Console.Write(num + " ");
-            }
-            Console.Write("\n");
+            FibConsole.MenuFunction();
 
         }
     }
