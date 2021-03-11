@@ -18,7 +18,3 @@ namespace ConsoleApp1
 }
 
 //FibConsole.MenuFunction();
-
-//int[] arr = { 17, 2, 34, 48, 25 };
-//Bubble bubble1 = new Bubble();
-//bubble1.Sort2(arr);
