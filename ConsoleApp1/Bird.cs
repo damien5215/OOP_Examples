@@ -25,9 +25,12 @@ namespace ConsoleApp1
 
 // Bird bird = new Bird();
 // bird.Move();
+// Console.WriteLine("");
 
 // Penguin penguin = new Penguin();
 // penguin.Move();
+// Console.WriteLine("");
 
 // Bird penguinBird = new Penguin();
 // penguinBird.Move();
+// Console.WriteLine("");
