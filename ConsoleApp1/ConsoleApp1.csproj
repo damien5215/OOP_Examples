@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animal.cs" />
+    <Compile Include="Author.cs" />
     <Compile Include="AuthorName.cs" />
     <Compile Include="Bird.cs" />
     <Compile Include="Bubble2.cs" />
