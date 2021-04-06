@@ -16,3 +16,7 @@ namespace ConsoleApp1
         public string Title = "A Moveable Feast";
     }
 }
+
+//Book book1 = new Book();
+//Console.WriteLine(book1.Name);
+//Console.WriteLine(book1.Title);

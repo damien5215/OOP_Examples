@@ -8,11 +8,10 @@ namespace ConsoleApp1
 {
     public class Person
     {
-        // This is a field.  It is private to your class and stores the actual data.
+        // This is a field
         private string _name;
 
-        // This is a property. When accessed it uses the underlying field,
-        // but only exposes the contract, which will not be affected by the underlying field
+        // This is a property 
         public string Name
         {
             get
@@ -25,10 +24,9 @@ namespace ConsoleApp1
             }
         }
 
-        // This is an AutoProperty (C# 3.0 and higher) - which is a shorthand syntax
-        // used to generate a private field for you
+        // These are AutoProperties 
         public int DOB_Year { get; set; }
-        public int PhoneNo { get; set; }
+        public string PhoneNo { get; set; }
     }
 }
 
