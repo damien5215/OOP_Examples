@@ -11,13 +11,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Person person1 = new Person();
-            person1.Name = "Phil";
-            person1.DOB_Year = 1954;
-            person1.PhoneNo = "01912428449";
-            Console.WriteLine(person1.Name);
-            Console.WriteLine(person1.DOB_Year);
-            Console.WriteLine(person1.PhoneNo);
+            Square square1 = new Square(3);
+            Console.WriteLine("NumSides = " + square1.NumSides);
+            Console.WriteLine("SideLength = " + square1.SideLength);
+            Console.WriteLine("Area = " + square1.Area);
 
         }
     }
