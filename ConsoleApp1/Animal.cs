@@ -9,10 +9,10 @@ namespace ConsoleApp1
     public abstract class Animal
     {
         public int NoOfEyes { get; } = 2;
-        
+
         // Property is abstract therefore every sub-class will have to override.
-        public abstract int NoOfLegs { get; protected set; }
-        
+        public abstract bool UnihemisphericSleep { get; protected set; }
+
         public virtual string phonation() 
         {
             return "";
@@ -21,11 +21,11 @@ namespace ConsoleApp1
 
     public class Dog : Animal
     {
-        public override int NoOfLegs { get; protected set; }
+        public override bool UnihemisphericSleep { get; protected set; }
 
         public Dog() 
         {
-            NoOfLegs = 4;
+            UnihemisphericSleep = false;
         }
 
         public override string phonation()
@@ -33,22 +33,28 @@ namespace ConsoleApp1
             return "Bark";
         }
     }
-    public class Cat : Animal
+    public class Dolphin : Animal
     {
-        public override int NoOfLegs { get; protected set; }
+        public override bool UnihemisphericSleep { get; protected set; }
 
-        public Cat()
+        public Dolphin()
         {
-            NoOfLegs = 4;
+            UnihemisphericSleep = true;
         }
+
         public override string phonation()
         {
-            return "Meow";
+            return "Clicks, whistles, etc";
         }
     }
 }
 
-//Animal Jeff = new Cat();
+//Animal Paul = new Dog();
+//Console.WriteLine(Paul.NoOfEyes);
+//Console.WriteLine(Paul.UnihemisphericSleep);
+//Console.WriteLine(Paul.phonation() + "\n");
+
+//Animal Jeff = new Dolphin();
 //Console.WriteLine(Jeff.NoOfEyes);
-//Console.WriteLine(Jeff.NoOfLegs);
-//Console.WriteLine(Jeff.phonation());
+//Console.WriteLine(Jeff.UnihemisphericSleep);
+//Console.WriteLine(Jeff.phonation() + "\n");

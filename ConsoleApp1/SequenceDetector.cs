@@ -30,10 +30,12 @@ namespace ConsoleApp1
                 if (sequence[i - 1] == sequence[i])
                 {
                     Console.WriteLine("Repeat Detector");
+                    Console.WriteLine("REPEAT DETECTED!");
                     return true;
                 }
             }
             Console.WriteLine("Repeat Detector");
+            Console.WriteLine("NO REPEAT DETECTED!");
             return false;
         }
     }
