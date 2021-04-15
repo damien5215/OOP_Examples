@@ -42,14 +42,18 @@ namespace ConsoleApp1
 }
 
 //int[] array1 = new int[] { 1, 3, 5, 1, 1, 9 };
+//int[] array2 = new int[] { 1, 3, 5, 8, 1, 9 };
 
 //SequenceDetector SD2 = new SequenceDetector();
 //bool result2 = SD2.Scan(array1);
 //Console.WriteLine(result2);
 //Console.WriteLine(SD2.Description + "\n" + "\n");
 
-
 //SequenceDetector SD1 = new RepeatDetector();
 //bool result = SD1.Scan(array1);
 //Console.WriteLine(result);
-//Console.WriteLine(SD1.Description);
+//Console.WriteLine(SD1.Description + "\n" + "\n");
+
+//result = SD1.Scan(array2);
+//Console.WriteLine(result);
+//Console.WriteLine(SD1.Description + "\n");
