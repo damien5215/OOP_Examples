@@ -27,7 +27,7 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Thundershock");
             Console.WriteLine("Thunderwave");
-            Console.WriteLine("Thunderwave");
+            Console.WriteLine("Thunderbolt");
         }
     }
 }
