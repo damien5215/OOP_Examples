@@ -11,8 +11,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            FibConsole.MenuFunction();
-
+            string s1 = "We promptly judged antique ivory buckles for the next prize";
+            string s2 = "The quick brown fox jumps over the lazy dog";
+            Pangrams.Pangram(s1);
         }
     }
 }
