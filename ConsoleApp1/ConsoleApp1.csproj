@@ -51,6 +51,7 @@
     <Compile Include="Bubble.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Collection.cs" />
+    <Compile Include="Editor.cs" />
     <Compile Include="EnumTest.cs" />
     <Compile Include="ExceptionEx.cs" />
     <Compile Include="Fib1.cs" />
@@ -74,7 +75,6 @@
     <Compile Include="SequenceDetector.cs" />
     <Compile Include="String.cs" />
     <Compile Include="StringReverse.cs" />
-    <Compile Include="WordCount.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
