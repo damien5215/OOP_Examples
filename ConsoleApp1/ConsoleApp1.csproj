@@ -74,6 +74,7 @@
     <Compile Include="SequenceDetector.cs" />
     <Compile Include="String.cs" />
     <Compile Include="StringReverse.cs" />
+    <Compile Include="WordCount.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
