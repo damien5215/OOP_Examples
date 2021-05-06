@@ -10,17 +10,22 @@ namespace ConsoleApp1
     {
         public string WordCount(string input) 
         {
-            //input = "one two. three. four five six. seven. eight nine.";
+            return input;
+        }
 
+
+        public string WordSenCount(string input) 
+        {
             int totalWords = 0;
             string splitOn = ".";
 
             string result = input.Replace('?', '.').Replace('!', '.').Replace(". ", ".");
 
-
             string[] sentenceArray = result.Split(splitOn.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
 
             int[] wordArr = new int[(sentenceArray.Length)];
+
+            result = result + "\n" + "\n";
 
             for (int i = 0; i < sentenceArray.Length; i++)
             {
@@ -28,6 +33,7 @@ namespace ConsoleApp1
                 totalWords += wordArr[i];
                 result += "Sentence " + (i + 1) + " contains " + wordArr[i] + " words." + "\n";
             }
+            result = result + "\n" + "Total words = " + totalWords;
 
             return result;
         }

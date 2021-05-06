@@ -17,7 +17,7 @@ namespace ConsoleApp1
 
             Editor edit = new Editor();
 
-            Console.WriteLine(edit.WordCount(input));
+            Console.WriteLine(edit.WordSenCount(input));
         }
     }
 }
