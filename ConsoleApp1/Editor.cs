@@ -10,9 +10,23 @@ namespace ConsoleApp1
     {
         public string WordCount(string input) 
         {
-            return input;
+            string splitOn = " ";
+            string[] wordArray = input.Split(splitOn.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+
+            string result = input + "\n" + "\n" + "Total number of words = " + wordArray.Length;
+
+            return result;
         }
 
+        public string SentenceCount(string input)
+        {
+            string splitOn = ".";
+            string[] sentenceArray = input.Split(splitOn.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+
+            string result = input + "\n" + "\n" + "Total number of sentences = " + sentenceArray.Length;
+
+            return result;
+        }
 
         public string WordSenCount(string input) 
         {
@@ -39,3 +53,11 @@ namespace ConsoleApp1
         }
     }
 }
+
+//string input = "one two. three. four five six. seven. eight nine. ten.";
+
+//Editor edit = new Editor();
+
+//Console.WriteLine(edit.WordSenCount(input));
+//Console.WriteLine(edit.WordCount(input));
+//Console.WriteLine(edit.SentenceCount(input));

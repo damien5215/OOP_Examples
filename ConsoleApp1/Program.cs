@@ -11,13 +11,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //FibConsole.MenuFunction();
+            FibConsole.MenuFunction();
 
-            string input = "one two. three. four five six. seven. eight nine.";
-
-            Editor edit = new Editor();
-
-            Console.WriteLine(edit.WordSenCount(input));
         }
     }
 }
