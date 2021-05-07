@@ -8,6 +8,12 @@ namespace ConsoleApp1
 {
     public class Editor
     {
+        public int CharCount(string input) 
+        {
+            int result = input.ToCharArray().Length;
+            return result;
+        }
+
         public string WordCount(string input) 
         {
             string splitOn = " ";
@@ -61,3 +67,4 @@ namespace ConsoleApp1
 //Console.WriteLine(edit.WordSenCount(input));
 //Console.WriteLine(edit.WordCount(input));
 //Console.WriteLine(edit.SentenceCount(input));
+//Console.WriteLine(edit.CharCount(input));
