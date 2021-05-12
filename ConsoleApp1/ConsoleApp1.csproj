@@ -58,6 +58,7 @@
     <Compile Include="Fib2.cs" />
     <Compile Include="Fib3.cs" />
     <Compile Include="FibConsole.cs" />
+    <Compile Include="FizzBuzz.cs" />
     <Compile Include="Frog.cs" />
     <Compile Include="IUnaryOperation.cs" />
     <Compile Include="LamdaEx.cs" />
