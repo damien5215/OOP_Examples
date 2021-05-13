@@ -6,15 +6,31 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class FizzBuzz
+    public class FizzBuzz
     {
-        public void PrintFizzBuzz(int input)
+        public static void PrintFizzBuzz(int input)
         {
-
-            Console.WriteLine(input);
-
-            //int result = input.ToCharArray().Length;
-            //return result;
+            for (int i = 1; i <= input; i++) 
+            {
+                if ((i % 3 == 0) && (i % 5 == 0))
+                {
+                    Console.WriteLine("FIZZ BUZZ");
+                }
+                else if (i % 5 == 0)
+                {
+                    Console.WriteLine("BUZZ");
+                }
+                else if (i % 3 == 0)
+                {
+                    Console.WriteLine("FIZZ");
+                }
+                else 
+                { 
+                    Console.WriteLine(i);
+                }
+            }
         }
     }
 }
+
+//FizzBuzz.PrintFizzBuzz(31); 

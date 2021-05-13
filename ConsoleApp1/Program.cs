@@ -13,6 +13,8 @@ namespace ConsoleApp1
         {
             //FibConsole.MenuFunction();
 
+            FizzBuzz.PrintFizzBuzz(31);
+
         }
     }
 }
