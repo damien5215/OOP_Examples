@@ -74,6 +74,7 @@
     <Compile Include="Quote.cs" />
     <Compile Include="Room.cs" />
     <Compile Include="SequenceDetector.cs" />
+    <Compile Include="Staircase.cs" />
     <Compile Include="String.cs" />
     <Compile Include="StringReverse.cs" />
   </ItemGroup>

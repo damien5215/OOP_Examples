@@ -11,7 +11,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            FizzBuzz.PrintFizzBuzz(31);
+            //FizzBuzz.PrintFizzBuzz(31);
+            Staircase.PrintStaircase(4);
         }
     }
 }

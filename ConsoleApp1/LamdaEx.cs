@@ -29,6 +29,10 @@ namespace ConsoleApp1
                 Console.Write(i + "\n");
             }
         }
+
+        //Func<int, bool> func = i => i < 5;
+        //Console.Write(func(6));
+
     }
 }
 
