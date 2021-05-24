@@ -60,6 +60,7 @@
     <Compile Include="FibConsole.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="Frog.cs" />
+    <Compile Include="HackerRank.cs" />
     <Compile Include="IUnaryOperation.cs" />
     <Compile Include="LamdaEx.cs" />
     <Compile Include="MathOps.cs" />
@@ -74,7 +75,6 @@
     <Compile Include="Quote.cs" />
     <Compile Include="Room.cs" />
     <Compile Include="SequenceDetector.cs" />
-    <Compile Include="Staircase.cs" />
     <Compile Include="String.cs" />
     <Compile Include="StringReverse.cs" />
   </ItemGroup>

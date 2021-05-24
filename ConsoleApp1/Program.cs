@@ -11,10 +11,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //FizzBuzz.PrintFizzBuzz(31);
-            Staircase.PrintStaircase(4);
+            FibConsole.MenuFunction();
+
         }
     }
 }
 
 //FibConsole.MenuFunction();
+
+//FizzBuzz.PrintFizzBuzz(31);
+//HackerRank.PrintStaircase(6);

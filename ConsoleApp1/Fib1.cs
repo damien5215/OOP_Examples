@@ -32,11 +32,9 @@ namespace ConsoleApp1
             }
             else 
             {
-                n++;
-                double[] fibArray = new double[n];
-                fibArray[0] = 0;
-                fibArray[1] = 1;
-                n--;
+                double[] fibArray = new double[n+1];
+                //fibArray[0] = 0;
+                //fibArray[1] = 1;
                 return calcFib(n, fibArray);
             }
         }
@@ -53,7 +51,9 @@ namespace ConsoleApp1
             }
             else
             {
-                fibArray[n] = calcFib(n - 1, fibArray) + calcFib(n - 2, fibArray);
+                fibArray[n] = calcFib(n - 1, fibArray) 
+                            + calcFib(n - 2, fibArray);
+
                 return fibArray[n];
             }
         }
