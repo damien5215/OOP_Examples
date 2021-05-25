@@ -93,6 +93,34 @@ namespace ConsoleApp1
             Console.WriteLine("Most Frequent Number = " + result + "\n");
             Console.WriteLine("Number of Repeats = " + results.Count() + "\n");
         }
+
+        static int[] permutationEquation(int[] p)
+        {
+            // int[] p = {2, 3, 1};
+            int[] arr0 = p;
+            int[] arr1 = new int[arr0.Length]; // {1, 2, 3};
+
+            int[] arr2 = new int[arr0.Length]; // {0, 0, 0};
+            int[] arr3 = new int[arr0.Length]; // {0, 0, 0};
+
+            for (int i = 0; i < arr0.Length; i++)
+            {
+                arr1[i] = i + 1;
+            }
+
+            for (int i = 0; i < arr0.Length; i++)
+            {
+                arr2[i] = Array.IndexOf(arr0, arr1[i]) + 1;
+            }
+
+            for (int i = 0; i < arr1.Length; i++)
+            {
+                arr3[i] = Array.IndexOf(arr0, arr2[i]) + 1;
+                //Console.WriteLine(arr3[i]);
+            }
+            return arr3;
+        }
+
     }
 }
 
