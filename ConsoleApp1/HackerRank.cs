@@ -41,6 +41,13 @@ namespace ConsoleApp1
                 result = "";
             }
         }
+
+        public static void equalArray(int stepNo)
+        {
+            
+        }
+
+
     }
 }
 
