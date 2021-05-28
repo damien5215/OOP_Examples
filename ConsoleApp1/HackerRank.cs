@@ -42,6 +42,33 @@ namespace ConsoleApp1
             }
         }
 
+        public static void Pangram(string input)
+        {
+            string result = input.Replace(" ", "").ToLower();
+            bool[] flagArray = new bool[26];
+
+            for (int i = 0; i < result.Length; i++)
+            {
+                flagArray[result[i] - 97] = true;
+            }
+
+            if (flagArray.ToList().Contains(false))
+            {
+                Console.WriteLine("The string - " + input + "\n" + "\n" +
+                                  "is NOT a Pangram!" + "\n" + "\n");
+            }
+            else
+            {
+                Console.WriteLine("The string - " + input + "\n" + "\n" +
+                                  "is a Pangram!" + "\n" + "\n");
+            }
+        }
+
+        //string s1 = "We promptly judged antique ivory buckles for the next prize";
+        //string s2 = "abcd efg hijk lmnop qrs tuv wx";
+        //HackerRank.Pangram(s1);
+        //HackerRank.Pangram(s2);
+
         public static void equalArray(List<int> nums)
         {
             int count1 = 0;
@@ -96,7 +123,7 @@ namespace ConsoleApp1
 
         static int[] permutationEquation(int[] p)
         {
-            // int[] p = {2, 3, 1};
+            // int[] p = {4, 3, 1};
             int[] arr0 = p;
             int[] arr1 = new int[arr0.Length]; // {1, 2, 3};
 

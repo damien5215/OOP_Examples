@@ -13,11 +13,12 @@ namespace ConsoleApp1
         {
             FibConsole.MenuFunction();
 
+            //Console.WriteLine("Fib(34) = " + "\n");
+            //Console.WriteLine(Fib1.Fib(34) + "\n");
         }
     }
 }
 
-//FibConsole.MenuFunction();
 
 //FizzBuzz.PrintFizzBuzz(31);
 //HackerRank.PrintStaircase(6);

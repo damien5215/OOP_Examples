@@ -33,8 +33,6 @@ namespace ConsoleApp1
             else 
             {
                 double[] fibArray = new double[n+1];
-                //fibArray[0] = 0;
-                //fibArray[1] = 1;
                 return calcFib(n, fibArray);
             }
         }
