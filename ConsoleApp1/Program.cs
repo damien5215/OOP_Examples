@@ -13,8 +13,6 @@ namespace ConsoleApp1
         {
             FibConsole.MenuFunction();
 
-            //Console.WriteLine("Fib(34) = " + "\n");
-            //Console.WriteLine(Fib1.Fib(34) + "\n");
         }
     }
 }
