@@ -13,6 +13,17 @@ namespace ConsoleApp1
         {
             FibConsole.MenuFunction();
 
+            //int input1 = 32;
+            //double input2 = 34;
+
+            //Console.WriteLine(input1);
+            //Console.WriteLine(input2 + "\n");
+
+            //input1 = (int)input2;
+
+            //Console.WriteLine(input1);
+            //Console.WriteLine(input2);
+
         }
     }
 }
