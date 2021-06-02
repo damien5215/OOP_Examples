@@ -13,16 +13,23 @@ namespace ConsoleApp1
         {
             FibConsole.MenuFunction();
 
-            //int input1 = 32;
-            //double input2 = 34;
+            //int input = 11;
+            //string out1 = "Input is too LARGE!" + "\n";
+            //string out2 = "Input is within limit." + "\n";
+            //string message;
 
-            //Console.WriteLine(input1);
-            //Console.WriteLine(input2 + "\n");
+            //if (input > 10)
+            //{
+            //    Console.WriteLine(out1);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(out2);
+            //}
 
-            //input1 = (int)input2;
+            //message = (input > 10) ? out1 : out2;
+            //Console.WriteLine(message);
 
-            //Console.WriteLine(input1);
-            //Console.WriteLine(input2);
 
         }
     }
