@@ -11,8 +11,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //FibConsole.MenuFunction();
-            HackerRank.PrintStaircase(6);
+            FibConsole.MenuFunction();
+            //HackerRank.PrintStaircase(12);
 
         }
     }
