@@ -121,7 +121,7 @@ namespace ConsoleApp1
             Console.WriteLine("Number of Repeats = " + results.Count() + "\n");
         }
 
-        static int[] permutationEquation(int[] p)
+        public static int[] permutationEquation(int[] p)
         {
             // int[] p = {4, 3, 1};
             int[] arr0 = p;
@@ -143,10 +143,14 @@ namespace ConsoleApp1
             for (int i = 0; i < arr1.Length; i++)
             {
                 arr3[i] = Array.IndexOf(arr0, arr2[i]) + 1;
-                //Console.WriteLine(arr3[i]);
+                Console.Write(arr3[i] + " ");
+                Console.WriteLine();
             }
             return arr3;
         }
+
+        //int[] p = {4, 3, 1};
+        //var x = HackerRank.permutationEquation(p);
 
     }
 }
