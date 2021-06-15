@@ -17,6 +17,3 @@ namespace ConsoleApp1
     }
 }
 
-//HackerRank.PrintStaircase(12);
-
-

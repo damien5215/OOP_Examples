@@ -42,6 +42,8 @@ namespace ConsoleApp1
             }
         }
 
+        //HackerRank.PrintStaircase(4);
+
         public static void Pangram(string input)
         {
             string result = input.Replace(" ", "").ToLower();
@@ -157,5 +159,3 @@ namespace ConsoleApp1
 
 //List<int> candles = new List<int>() { 4, 2, 4, 4, 1 };
 //HackerRank.Birthday(candles);
-
-//HackerRank.PrintStaircase(4);
