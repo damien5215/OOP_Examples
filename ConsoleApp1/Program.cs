@@ -14,9 +14,7 @@ namespace ConsoleApp1
             //FibConsole.MenuFunction();
 
             string s1 = "We promptly judged antique ivory buckles for the next prize";
-            string s2 = "abcd efg hijk lmnop qrs tuv wx";
             HackerRank.Pangram(s1);
-            HackerRank.Pangram(s2);
 
         }
     }
