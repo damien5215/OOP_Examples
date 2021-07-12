@@ -11,10 +11,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //FibConsole.MenuFunction();
-
-            string s1 = "We promptly judged antique ivory buckles for the next prize";
-            HackerRank.Pangram(s1);
+            FibConsole.MenuFunction();
 
         }
     }
