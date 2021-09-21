@@ -11,8 +11,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            FibConsole.MenuFunction();
+            // FibConsole.MenuFunction();
 
+            Loops loopObject = new Loops();
+            loopObject.ExDoWhile(8);
         }
     }
 }
