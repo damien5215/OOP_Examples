@@ -14,7 +14,9 @@ namespace ConsoleApp1
             // FibConsole.MenuFunction();
 
             Loops loopObject = new Loops();
-            loopObject.ExDoWhile(8);
+            loopObject.ExWhile(3);
+            loopObject.ExDoWhile(4);
+            loopObject.ExForWhile(3);
         }
     }
 }
