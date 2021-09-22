@@ -45,3 +45,8 @@ namespace ConsoleApp1
 
     }
 }
+
+//Loops loopObject = new Loops();
+//loopObject.ExWhile(3);
+//loopObject.ExDoWhile(4);
+//loopObject.ExForWhile(3);
