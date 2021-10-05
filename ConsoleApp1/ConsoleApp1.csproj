@@ -64,6 +64,7 @@
     <Compile Include="IUnaryOperation.cs" />
     <Compile Include="LamdaEx.cs" />
     <Compile Include="Loops.cs" />
+    <Compile Include="Luhn.cs" />
     <Compile Include="MathOps.cs" />
     <Compile Include="MergeSort.cs" />
     <Compile Include="Person.cs" />
