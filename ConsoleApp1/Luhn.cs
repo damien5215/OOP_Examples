@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     public class Luhn
     {
-        public static void CheckNo(string cardNumber)
+        public static bool CheckNo(string cardNumber)
         {
             string result = "";
             int result2 = 0;
@@ -58,6 +58,16 @@ namespace ConsoleApp1
             Console.WriteLine(result + "\n");
             Console.WriteLine(result2 + "\n");
 
+            if (result2 % 10 == 0) 
+            {
+                Console.WriteLine(true + "\n");
+                return true;
+            }
+            else 
+            {
+                Console.WriteLine(false + "\n");
+                return false;
+            }
         }
 
     }

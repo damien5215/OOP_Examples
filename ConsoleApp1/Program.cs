@@ -11,9 +11,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Luhn.CheckNo("1234123412341234");
-
             //FibConsole.MenuFunction();
+
+            // false
+            //Luhn.CheckNo("1234123412341234");
+
+            // true
+            Luhn.CheckNo("4121144444444444");
         }
     }
 }
